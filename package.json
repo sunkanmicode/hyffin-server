@@ -2,9 +2,14 @@
   "name": "hyffin-server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:sunkanmicode/hyffin-server.git",
   "author": "sunkanmicode <oguntimehins@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm i"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
